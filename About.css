@@ -1,0 +1,38 @@
+/* about.css */
+
+/* Center the heading */
+h1 {
+    text-align: center;
+}
+
+/* Style the body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #f0f4c3; /* Light green background */
+    font-family: Arial, sans-serif; /* Set a clean font */
+}
+
+/* Style paragraphs */
+p {
+    max-width: 600px;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+/* Style ordered lists */
+ol {
+    max-width: 600px;
+    padding-left: 20px;
+}
+
+/* Style list items */
+li {
+    margin-bottom: 10px;
+}
